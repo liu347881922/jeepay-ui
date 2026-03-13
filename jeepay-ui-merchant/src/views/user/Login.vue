@@ -6,12 +6,12 @@
         <div class="top">
           <div class="header">
             <a href="/">
-              <img src="@/assets/logo.svg" class="logo" alt="logo" />
+              <img src="@/assets/logo.svg" class="logo" alt="logo"/>
             </a>
           </div>
           <div class="desc">
             <img src="@/assets/svg/operate.svg" class="logo" alt="logo" />
-            <span>商户平台</span>
+            <span>亳州三维支付平台-商户</span>
           </div>
         </div>
 
@@ -226,7 +226,7 @@ function refVercode() {
           }
 
           .logo {
-            height: 44px;
+            height: 100px;
             vertical-align: top;
             border-style: none;
           }

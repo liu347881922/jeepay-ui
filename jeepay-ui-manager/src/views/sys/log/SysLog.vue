@@ -22,7 +22,7 @@
               class="table-head-layout"
             >
               <a-select-option value="">全部</a-select-option>
-              <a-select-option value="MGR">运营平台</a-select-option>
+              <a-select-option value="MGR">亳州三维支付平台-运营</a-select-option>
               <a-select-option value="MCH">商户系统</a-select-option>
             </a-select>
 
@@ -82,7 +82,7 @@
             >
               {{
                 record.sysType === 'MGR'
-                  ? '运营平台'
+                  ? '亳州三维支付平台-运营'
                   : record.sysType === 'MCH'
                     ? '商户系统'
                     : '其他'
@@ -151,7 +151,7 @@
                 >
                   {{
                     vdata.detailData.sysType === 'MGR'
-                      ? '运营平台'
+                      ? '亳州三维支付平台-运营'
                       : vdata.detailData.sysType === 'MCH'
                         ? '商户系统'
                         : '其他'

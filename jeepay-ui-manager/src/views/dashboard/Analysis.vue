@@ -265,7 +265,7 @@
                 <a-descriptions-item label="所属系统">
                   {{
                     userStore.userInfo.sysType === 'MGR'
-                      ? '运营平台'
+                      ? '亳州三维支付平台-运营'
                       : userStore.userInfo.sysType === 'MCH'
                         ? '商户系统'
                         : '未知'

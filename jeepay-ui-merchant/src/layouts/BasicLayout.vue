@@ -19,12 +19,8 @@
     <template #menuHeaderRender>
       <router-link :to="{ path: '/' }" style="display: flex; align-items: center">
         <div v-if="!proLayoutObject.collapsed">
-          <img src="@/assets/logo-j.svg" alt="jeequan" />
-          <img
-            src="@/assets/svg/jeepay.svg"
-            alt="jeepay"
-            style="width: 90px; margin: 5px 0 0 5px"
-          />
+          <img src="@/assets/logo-j.svg" alt="jeequan"  style="width: 80px;"/>
+          
         </div>
         <div v-else><img src="@/assets/logo-j.svg" alt="jeequan" /></div>
       </router-link>
@@ -72,15 +68,7 @@
 
         <!-- 个人信息部分 -->
         <div style="display: flex; align-items: center">
-          <a-button @click="openUrl('https://www.jeequan.com/ifstore/list.html')">
-            接口市场
-          </a-button>
-          <a-button
-            @click="openUrl('https://www.jeequan.com/product/jeepay4plus.html')"
-            style="margin: 0 10px"
-          >
-            Plus商业版
-          </a-button>
+          
 
           <a-dropdown>
             <template #overlay>

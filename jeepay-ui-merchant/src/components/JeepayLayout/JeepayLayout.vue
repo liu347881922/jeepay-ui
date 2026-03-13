@@ -143,11 +143,7 @@
         <!-- 页面主体区域默认插槽，主要就是放个router-view -->
         <slot />
 
-        <div class="foot">
-          Copyright © 2021-2025
-          <a href="https://www.jeequan.com" target="_blank">计全科技</a>
-          All rights reserved.
-        </div>
+        
       </a-layout-content>
     </a-layout>
   </a-layout>

@@ -6,12 +6,12 @@
         <div class="top">
           <div class="header">
             <a href="/">
-              <img src="~@/assets/logo.svg" class="logo" alt="logo" />
+              <img src="~@/assets/logo.svg" class="logo" alt="logo" style="width: 100px;"/>
             </a>
           </div>
           <div class="desc">
             <img src="~@/assets/svg/operate.svg" class="logo" alt="logo" />
-            <span>运营平台</span>
+            <span>亳州三维支付平台-运营</span>
           </div>
         </div>
 

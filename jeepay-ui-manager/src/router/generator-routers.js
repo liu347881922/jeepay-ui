@@ -105,6 +105,7 @@ export const generator = (allMenuRouteTreeArray) => {
     // 跳转uri
     let path = item.menuUri || defComponent.defaultPath
 
+    
     // 没有配置path, 如果为目录则允许为空， 否则不在加载此配置
     if (!path) {
       if (item.children && item.children.length > 0) {

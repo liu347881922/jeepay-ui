@@ -11,7 +11,7 @@ NProgress.configure({ showSpinner: false })
 const rootRoute: any = [{ name: 'login', path: '/login', component: Login }]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/payManager/'),
   routes: rootRoute,
 })
 
